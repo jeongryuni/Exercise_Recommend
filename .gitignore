@@ -1,0 +1,205 @@
+<<<<<<< HEAD
+# ===============================
+# OS 기본 무시 파일
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# IDE 설정 파일
+# ===============================
+# IntelliJ / IDEA / PyCharm
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# Eclipse / STS
+.classpath
+.project
+.settings/
+
+# ===============================
+# Python 관련
+# ===============================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Distribution / packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+
+# Logs and cache
+*.log
+*.tmp
+*.bak
+*.swp
+.cache/
+.pytest_cache/
+
+# ===============================
+# Java / Spring Boot 관련
+# ===============================
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Maven
+target/
+!src/main/**/target/
+!src/test/**/target/
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Spring Boot specific
+*.jar
+*.war
+
+# ===============================
+# Environment & Config
+# ===============================
+.env
+*.env
+*.ini
+*.config
+*.properties.local
+*.secret
+*.key
+
+# ===============================
+# Node / Front-end (필요시)
+# ===============================
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# ===============================
+# 기타 임시 파일
+# ===============================
+*.bak
+*.tmp
+*.swp
+*.swo
+=======
+# ===============================
+# OS 기본 무시 파일
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# IDE 설정 파일
+# ===============================
+# IntelliJ / IDEA / PyCharm
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# Eclipse / STS
+.classpath
+.project
+.settings/
+
+# ===============================
+# Python 관련
+# ===============================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Distribution / packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+
+# Logs and cache
+*.log
+*.tmp
+*.bak
+*.swp
+.cache/
+.pytest_cache/
+
+# ===============================
+# Java / Spring Boot 관련
+# ===============================
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Maven
+target/
+!src/main/**/target/
+!src/test/**/target/
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Spring Boot specific
+*.jar
+*.war
+
+# ===============================
+# Environment & Config
+# ===============================
+.env
+*.env
+*.ini
+*.config
+*.properties.local
+*.secret
+*.key
+
+# ===============================
+# Node / Front-end (필요시)
+# ===============================
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# ===============================
+# 기타 임시 파일
+# ===============================
+*.bak
+*.tmp
+*.swp
+*.swo
+>>>>>>> home2

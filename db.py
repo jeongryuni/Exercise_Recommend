@@ -1,11 +1,12 @@
 # db.py
-import mysql.connector
+import pymysql
 
 def get_connection():
-    conn = mysql.connector.connect(
-        host="localhost",
+    return pymysql.connect(
+        host="3.37.90.119",
         user="root",
         password="3306",
-        database="saveus"
+        database="saveus",
+        charset="utf8mb4",
+        cursorclass=pymysql.cursors.DictCursor
     )
-    return conn
